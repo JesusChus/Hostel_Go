@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Nanum+Myeongjo:wght@800&family=Raleway:wght@200;400&display=swap');
+
+/*
+font-family: 'Cardo', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    font-family: 'Cardo', serif;
+    background-color: rgba(161, 161, 161, 0.274);
+}
+
+.navbar img {
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.navbar img:hover {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 65px 6px rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    border-radius: 10px;
+    background-color: rgba(53, 53, 52, 0.493);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+    transition: 0.3s;
+}
+
+
+.cabecera h2 {
+    font-size: 4.5em;
+}
+
+.cabecera img {
+    border-radius: 100px 0 0 100px;
+    width: 100%;
+
+}
+
+.cabecera p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+
+.cabecera {
+    font-size: small;
+}
+
+.segunda h2 {
+    font-size: 4.5em;
+}
+
+.segunda img {
+    border-radius: 0 100px 100px 0px;
+    width: 100%;
+
+}
+
+.segunda p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+
+.segunda {
+    font-size: small;
+}
+#cab {
+    margin-top: 15%;
+    padding-left: 20px;
+}
+
+#parrafo {
+    font-size: small;
+}
+
+.tienda {
+    font-family: 'Cardo', serif;
+    text-align: center;
+    background-color: rgb(155, 152, 152);
+}
+
+.tienda p {
+    font-size: 30px;
+}
+
+.tienda img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.collapse {
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.collapse img {
+    width: 100%;
+}
+
+.servicios h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.servicios img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.servicios h3 {
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 80px;
+}
+
+.servicios p {
+    font-size: large;
+}
+.asesores {
+    width: 100%;
+}
+.nosotros img{
+    width: 60%;
+    border-radius: 20%;
+}
+.nosotros p{
+    font-size: 30px;
+}
+.mapa {
+    text-align: center;
+}
+.mapa ul{
+    margin-top: 50px;
+    list-style: none;
+}
+#foot a{
+    color: rgb(75, 73, 73);
+    text-decoration: none;
+}

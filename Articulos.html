@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+
+    <!--  CSS DE BOOTSTRAP  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!--  SCRIPTS DE BOOTSTRAP  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!--  FONT-AWESOME  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ESTILOS CSS  -->
+
+    <link rel="stylesheet" href="/css/estilos.css">
+
+</head>
+
+<body>
+    <!-- NAVBAR--MENU -->
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary " style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+
+                <img src="img/logo.jpg" alt="logo">
+
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse text-center mt-3 col-6" id="navbarNav">
+                <a href="index.html" class="navbar-brand">Inicio</a>
+                <a href="Articulos.html" class="navbar-brand">Articulos</a>
+                <a href="Servicios.html" class="navbar-brand">Servicios</a>
+                <a href="Conocenos.html" class="navbar-brand">Contactos</a>
+
+                <form class="d-flex mt-1" role="search">
+                    <input class="form-control ms-3" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-primary ms-3 me-4" type="submit">Buscar</button>
+                </form>
+            </div>
+
+        </nav>
+    </div>
+
+    <!--  Tienda   -->
+
+    <div class="tienda">
+
+        <p>Tienda de menaje y suministros de hosteleria.</p>
+        <hr>
+        <div class="row">
+
+            <div class="col-lg-2">
+                <img src="img/Vajilla.jpg" alt="Vajilla">
+                <button class="btn btn-outline-light mt-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample" aria-expanded="false"
+                    aria-controls="collapseExample">Vajilla</button>
+            </div>
+
+            <div class="col-lg-2">
+                <img src="img/Cuberteria.jpg" alt="Cubertería">
+                <button class="btn btn-outline-light mt-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#cubiertos" aria-expanded="false" aria-controls="cubiertos">Cubertería</button>
+
+            </div>
+            <div class="col-lg-2">
+                <img src="img/Cristaleria.jpg" alt="Cristalería">
+                <button class="btn btn-outline-light mt-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#cristaleria" aria-expanded="false" aria-controls="cristaleria">Cristalería</button>
+
+            </div>
+            <div class="col-lg-2">
+                <img src="img/Equipamiento.jpg" alt="Equipamiento">
+                <button class="btn btn-outline-light mt-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#equipamiento" aria-expanded="false"
+                    aria-controls="equipamiento">Equipamiento</button>
+            </div>
+
+            <div class="col-lg-2">
+                <img src="img/take away.jpg" alt="Take">
+                <button class="btn btn-outline-light mt-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#take" aria-expanded="false" aria-controls="take">Take Away</button>
+
+            </div>
+
+            <div class="col-lg-2">
+                <img src="img/Suministros.jpg" alt="Suministros">
+                <button class="btn btn-outline-light mt-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#suministros" aria-expanded="false" aria-controls="suministros">Suministros</button>
+
+            </div>
+        </div>
+        <br>
+        <hr>
+    </div>
+
+    <!--  DESPLAZAMIENTO DE VAJILLA-->
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-2">
+                    <div class="img">
+                        <img src="http://porvasal.es/wp-content/uploads/2015/11/Aitana-platos-y-fuentes.jpg">
+                    </div>
+                    <div class="datos">
+                        <span class="tit">Plato llano 16cm AITANA</span>
+                    </div>
+                    <div>
+                        " 16 cm "
+                        <br>
+                        " Peso 208 gr"
+                        <br>
+                        " Blanco"
+                        <br>
+                        " 24 unidades/caja "
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="http://porvasal.es/wp-content/uploads/2015/11/Aitana-platos-y-fuentes.jpg">
+                    </div>
+                    <div class="datos">
+                        <span class="tit">Plato llano 20cm AITANA</span>
+                    </div>
+                    <div>
+                        " 20 cm "
+                        <br>
+                        " Peso 371 gr"
+                        <br>
+                        " Blanco"
+                        <br>
+                        " 24 unidades/caja "
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="http://porvasal.es/wp-content/uploads/2015/11/Aitana-platos-y-fuentes.jpg">
+                    </div>
+                    <div class="datos">
+                        <span class="tit">Plato llano 24cm AITANA</span>
+                    </div>
+                    <div>
+                        " 24 cm "
+                        <br>
+                        " Peso 603 gr"
+                        <br>
+                        " Blanco"
+                        <br>
+                        " 24 unidades/caja "
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="http://porvasal.es/wp-content/uploads/2015/11/Aitana-platos-y-fuentes.jpg">
+                    </div>
+                    <div class="datos">
+                        <span class="tit">Plato llano 26cm AITANA</span>
+                    </div>
+                    <div>
+                        " 26 cm "
+                        <br>
+                        " Peso 680 gr"
+                        <br>
+                        " Blanco"
+                        <br>
+                        " 24 unidades/caja "
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="http://porvasal.es/wp-content/uploads/2015/11/Taza_Aitana.jpg">
+                    </div>
+                    <div class="datos">
+                        <span class="tit">Taza Desayuno AITANA</span>
+                    </div>
+                    <div>
+                        " 230 cc. "
+                        <br>
+                        " Peso 226 gr"
+                        <br>
+                        " Blanco"
+                        <br>
+                        " 24 unidades/caja "
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="http://porvasal.es/wp-content/uploads/2015/11/Taza_Aitana.jpg">
+                    </div>
+                    <div class="datos">
+                        <span class="tit">Taza Moka AITANA</span>
+                    </div>
+                    <div>
+                        " 70 cc. "
+                        <br>
+                        " Peso 135 gr"
+                        <br>
+                        " Blanco"
+                        <br>
+                        " 24 unidades/caja "
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DESPLAZAMIENTO DE CUBERTERIA -->
+    <div class="collapse" id="cubiertos">
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-2">
+                    <div class="img">
+                        <img src="https://www.comaspartners.com/cdnassets//categories/cheese_principal_1500.jpg"
+                            alt="CHEESE 18% 3MM." class="category-list-img img-responsive"
+                            onerror="this.src = 'https://www.comaspartners.com/cdnassets/imgNotFound.png';this.onerror = null;"
+                            loading="lazy">
+                    </div>
+                    <div class="category-list-title">CHEESE 18% 3MM.</div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="https://www.comaspartners.com/cdnassets//categories/hotel_principal_1500.jpg"
+                            alt="HOTEL EXTRA 18% ECO" class="category-list-img img-responsive"
+                            onerror="this.src = 'https://www.comaspartners.com/cdnassets/imgNotFound.png';this.onerror = null;"
+                            loading="lazy">
+                    </div>
+                    <div class="category-list-title">HOTEL EXTRA 18% ECO</div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="https://www.comaspartners.com/cdnassets//categories/sevilla_principal_1500.jpg"
+                            alt="SEVILLA XL 18% 3MM." class="category-list-img img-responsive"
+                            onerror="this.src = 'https://www.comaspartners.com/cdnassets/imgNotFound.png';this.onerror = null;"
+                            loading="lazy">
+                    </div>
+                    <div class="category-list-title">SEVILLA XL 18% 3MM.</div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="https://www.comaspartners.com/cdnassets//categories/nice_principal_1500.jpg"
+                            alt="NICE 18% 4MM." class="category-list-img img-responsive"
+                            onerror="this.src = 'https://www.comaspartners.com/cdnassets/imgNotFound.png';this.onerror = null;"
+                            loading="lazy">
+                    </div>
+                    <div class="category-list-title">NICE 18% 4MM.</div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="https://www.comaspartners.com/cdnassets//categories/alida_principal_1500.jpg"
+                            alt="ALIDA 18% 2MM." class="category-list-img img-responsive"
+                            onerror="this.src = 'https://www.comaspartners.com/cdnassets/imgNotFound.png';this.onerror = null;"
+                            loading="lazy">
+                    </div>
+                    <div class="datos">
+                        <div class="category-list-title">ALIDA 18% 2MM.</div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="https://www.comaspartners.com/cdnassets//categories/luna_black_1500.jpg"
+                            alt="LUNA 18% 1,8MM. SATIN BLACK" class="category-list-img img-responsive"
+                            onerror="this.src = 'https://www.comaspartners.com/cdnassets/imgNotFound.png';this.onerror = null;"
+                            loading="lazy">
+                    </div>
+                    <div class="datos">
+                        <div class="category-list-title">LUNA 18% 1,8MM. SATIN BLACK</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DESPLAZAMIENTO DE CRISTALERIA -->
+    <div class="collapse" id="cristaleria">
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/cristaleria/coñac.jpg" alt="C COÑAC 76 R FAA6 H">
+                    </div>
+                    <span class="card-product__title-text">C COÑAC 76 'R' FAA6 H</span>
+                    <p class="card-product__ref">Ref.: V0746</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/cristaleria/margarita.jpg" alt="C MARGARITA 27 T FA6 H">
+                    </div>
+                    <span class="card-product__title-text">C MARGARITA 27 'T' FA6 H</span>
+                    <p class="card-product__ref">Ref.: V1099</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/cristaleria/tuvo.jpg" alt="V TUVO 31 T A24 H">
+                    </div>
+                    <span class="card-product__title-text">V TUVO 31 'T' A24 H</span>
+                    <p class="card-product__ref">Ref.: V0034</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/cristaleria/sidra maxi.jpg" alt="V SIDRA MAXI 50 T A12 H">
+                    </div>
+                    <span class="card-product__title-text">V SIDRA MAXI 50 'T' A12 H</span>
+                    <p class="card-product__ref">Ref.: V0055</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/cristaleria/sidra midi.jpg" alt="V SIDRA MIDI 36 T A12 H">
+                    </div>
+                    <div class="datos">
+                        <span class="card-product__title-text">V SIDRA MIDI 36 'T' A12 H</span>
+                        <p class="card-product__ref">Ref.: V0191</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/cristaleria/ouro.jpg" alt="V OURO 3,4 R A24 H">
+                    </div>
+                    <div class="datos">
+                        <span class="card-product__title-text">V OURO 3,4 'R' A24 H</span>
+                        <p class="card-product__ref">Ref.: V4195</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DESPLAZAMIETO DE SUMINISTRO -->
+    <div class="collapse" id="suministros">
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/suministros/bolsa.png" alt="bolsa">
+                    </div>
+                    <span>Bolsa de basura 85x105 negra. Galga 180. Baja densidad. Peso rollo: 700 grs (+/-). Para cubos
+                        de 100 litros.</span>
+                    <p>Caja de 15 rollos de 10 bolsas.</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/suministros/microfibra.png" alt="bayeta">
+                    </div>
+                    <span>Bayeta de microfibra multiusos, paquetes de 4 colores de 38x40. Gran capacidad de
+                        absorción</span>
+                    <p>Paquete de 4 bayetas.
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/suministros/papel.png" alt="V TUVO 31 T A24 H">
+                    </div>
+                    <span>Rollo de papel higiénico Standard Size de calidad pasta pura virgen laminado de 2 capas
+                    </span>
+                    <p>Paquete de 18 rollos</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/suministros/machine.png" alt="machine">
+                    </div>
+                    <span>Detergente Máquinas Lavavajillas</span>
+                    <p>Ref.: H-0201</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/suministros/master.png" alt="masterhand">
+                    </div>
+                    <div class="datos">
+                        <span>Lavavajillas Manual</span>
+                        <p">Ref.: H-0207</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/suministros/abrillantador.png" alt="abrillantador">
+                    </div>
+                    <div class="datos">
+                        <span>Abrillantador de lavavajillas Máquina</span>
+                        <p>Ref.: H-0202</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DESPLAZAMIETO DE TAKE AWAY -->
+    <div class="collapse" id="take">
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-2">
+                    <div class="img text-center mt-5">
+                        <img src="img/take/pizza.png" alt="pizza">
+                    </div>
+                    <span>Caja para pizza de 30x30x4 estándar con impresión a 4 colores de fácil montaje y de gran
+                        resistencia..</span>
+                    <p>Paquete de 100 cajas.</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/take/ensaladera.png" alt="ensaladera">
+                    </div>
+                    <span>Ensaladera con tapa bisagra 750 ML 18,8x14,3x5,2 CM Trasparente PLA</span>
+                    <p>Paquete de 400 unid.
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/take/vaso.png" alt="vaso">
+                    </div>
+                    <span>Vasos de papel 1 pared 'PLASTIC FREE' 180 ML 260 G/M2 Ø7,2/5,3x7,8 CM.
+                    </span>
+                    <p>Paquete de 1000 unid.</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/take/tapa.png" alt="tapa">
+                    </div>
+                    <span>Tapas para vasos 360 ML 'BIODEGRADABLES' negro.</span>
+                    <p>Paquete de 1000 unid.</p>
+                </div>
+                <div class="col-2 mt-5">
+                    <div class="img">
+                        <img src="img/take/plato.png" alt="Plato">
+                    </div>
+                    <div class="datos">
+                        <span>Platos 'BIONIC' Ø 23x2 CM NATURAL BAGAZO</span>
+                        <p">Paquete de 1000 unid.</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/take/servilleta.png" alt="servilleta">
+                    </div>
+                    <div class="datos">
+                        <span>Servilleta camguro 'NATURA' 55 G/M2 40x40 CM NATURAL AIRLAID.</span>
+                        <p>Caja de 700 unid.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DESPLAZAMIENTO DE EQUIPAMIENTO -->
+    <div class="collapse" id="equipamiento">
+        <div class="card card-body">
+            <div class="row">
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/equipamiento/paellera.jpg" alt="paellera">
+                    </div>
+                    <span>Paellera Valenciana en acero pulido todas las medidas.</span>
+                    <p>Paquete de 6 unid.</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/equipamiento/paellero.jpg" alt="paellero">
+                    </div>
+                    <span>Paellero esmaltados a Gas todas las medidas</span>
+                    <p>Venta por unidad.</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/equipamiento/Sarten.jpg" alt="Sarten">
+                    </div>
+                    <span>Sartén honda esmaltado con asas todas las medidas.</span>
+                    <p>Paquete de 6 unid.</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/equipamiento/sartenantiaderente.jpg" alt="sartenantiaderente">
+                    </div>
+                    <span>Sartén antiadherente INOX PRO todas las medidas.</span>
+                    <p>Venta por unidad.</p>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/equipamiento/sartenacero.jpg" alt="sartenacero">
+                    </div>
+                    <div class="datos">
+                        <span>Sartén 'EXPERT' acero inoxidable todas las medidas.</span>
+                        <p>Venta por unidad.</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img">
+                        <img src="img/equipamiento/carro.jpg" alt="carro">
+                    </div>
+                    <div class="datos">
+                        <span>Carro de servicio.</span>
+                        <br>
+                        <p>Venta por unidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-11"></div>
+        <div class="col-1 mb-2" id="lol">
+            <a href="#"><i class="fa-solid fa-circle-arrow-up fa-bounce fa-xl" style="color: #347fc5;"></i></a>
+        </div>
+
+    </div>
+    <!--  FOOTER--PIE DE PAGINA  -->
+    <hr>
+    <div class="footer">
+        <div class="row text-center">
+            <div class="col-4 sm-3">
+                <p>Pagina Hecha por Jesus Paredes</p>
+            </div>
+            <div class="col-sm-8" id="foot">
+                <a href="#">Aviso legal</a>
+                <a href="#">Política de protección de datos</a>
+                <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
